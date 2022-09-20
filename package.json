@@ -1,0 +1,19 @@
+{
+  "name": "html-vinciatti-iii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancmontes13/Vinciatti-Tercero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancmontes13/Vinciatti-Tercero/issues"
+  },
+  "homepage": "https://github.com/juancmontes13/Vinciatti-Tercero#readme"
+}
