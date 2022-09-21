@@ -63,9 +63,11 @@ p {
 }
 a {
     text-decoration: none;
+    color: #25252b;
+    &:hover {
+        color: #C9C5EA;
+       }
 }
 
-a{
-    color: #25252b;
-}
+
 
