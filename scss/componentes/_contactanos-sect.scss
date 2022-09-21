@@ -1,0 +1,63 @@
+.contactanos__flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    border: none;
+   
+}
+.container__form {
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    background-color:#EBF1A9 ;
+    font-size: 1.5rem
+}
+
+.legend {
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+.btn__name {
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    margin: 1rem;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 99rem;
+    border: 0 solid;
+    
+}
+.btn__email {
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    margin: 1rem;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 99rem;
+    border: 0 solid;
+
+}
+.btn__textArea {
+    margin: 1rem;
+    border-radius:0;
+    border: 0 solid;
+    
+
+}
+.btn {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #25252b;
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5rem;
+    border-radius: 99rem;
+    border: 0 solid;
+
+}

@@ -1,0 +1,40 @@
+.whats-on{
+    background-color: #C9C5EA;
+    clip-path: polygon(0% 0%, 100% 4%, 100% 100%, 0% 100%);
+}
+@media screen and (max-width: 986px) {
+    .whats-on {
+        clip-path: polygon(0% 0%, 100% 1%, 100% 100%, 0% 100%);
+}
+}
+    
+.wo__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0 5rem 0;
+}
+.wo__p{
+    color: #25252b;
+    margin: 5rem 2rem 5rem 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.h2-wo{
+    color: #25252b;
+}
+.instagram-post{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8rem;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width:900px) {
+    .instagram-post{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

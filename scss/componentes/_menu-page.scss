@@ -1,0 +1,259 @@
+.menu__img {
+   
+    width: 100%;
+    height: 500px;
+    background-image: url(../../images/amigos2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+  .section__opciones{
+    margin: 5rem 0 5rem 0;
+  }
+
+/* 3 opciones section */
+
+.opciones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    
+   
+}
+@media screen and (max-width:960px){
+    .opciones{
+        flex-direction: column;
+    }
+    .img__sabores {
+        margin-top: 5rem;
+    }
+}
+
+.nuestrosSabores__image img {
+    max-width:fit-content;
+    height: 500px;
+    overflow-x: hidden;
+}
+.img__menu_noparallax{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../images/sabores-vinciatti.png);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.img_donde__noparallax {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../images/vinciatti-city.png);
+    background-size: cover;
+    background-position: center;
+}
+#menu_nuestros-sabores {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    
+    
+}
+.hero__text{
+   display: flex;
+   flex-direction: column;
+}
+  .menu__p {
+    text-align: center;
+    color: #eeeeee;
+    padding-top: 2rem;
+  }
+  .sabores__text {
+    display: flex;
+    margin: 2rem 5rem 4rem 5rem;
+    padding: 0 10rem 0 10rem;
+  }
+
+@media screen and (max-width: 810px) {
+    .sabores__text {
+        margin: 2rem;
+        padding: 1rem;
+    }
+}
+  .h2__sabores {
+    color: #eeeeee;
+    padding: 5rem;
+    font-style: italic;
+    text-align: center;
+  }
+ 
+  .sabores__p {
+    color: #eeeeee;
+    text-align: center;
+    
+  }
+  .sabores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* CARDS */
+
+.card {
+    overflow: hidden;
+}
+
+.card--primary .card__header {
+    background-color: #b6efda;
+}
+
+/* CARD SABORES*/
+
+.cardSabores {
+ border: 0.3px solid lightgray;
+ background-color: #eeeeee;
+  }
+
+.sabores__image {
+    width: 100%;
+    height: 250px;
+
+}
+.container__card {
+       
+       width: 250px;
+       height: 330px;
+       margin: 1rem;
+       display: flex;
+       justify-content: center;
+       
+}
+
+
+.card__text { 
+    font-size: 1.5rem;
+    font-style: italic;
+    background-color: #eeeeee;
+    overflow: hidden;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    text-align: center;
+
+}
+.tarjetas__sabores {
+    display: flex;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+   
+
+}
+
+
+.heading__sabores {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+  /* Section Menu Antojos */ 
+  .img_antojos_noparallax {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../images/cinnamon-rolls.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+}
+#section__menu_antojos{
+    display: flex;
+    justify-content: space-evenly;
+  }
+    .antojos__typo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    color: #25252b;
+  }
+.antojos__text {
+    margin: 5rem;
+    padding: 0 10rem 0 10rem;
+    color: #25252b;
+    display: flex;
+}
+
+@media screen and (max-width: 810px) {
+    .antojos__text {
+        padding: 0;
+    }
+}
+.h2__antojos {
+    padding: 5rem;
+    color: #25252b;
+}
+#section__menu_antojos{
+display: flex;
+justify-content: space-evenly;
+background-color: #b6efda;
+flex-wrap: wrap;
+}
+
+.opciones__antojos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    width: 100%;
+   }
+
+@media screen and (max-width:1000px){
+    .opciones__antojos {
+        flex-direction: column;
+        justify-content: center;
+       }
+}
+.menu__p--negro { 
+    color: #25252b;
+    text-align: center;
+    padding-top: 2rem;
+}
+.img__sabores{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+/* Section Menu bebidas */ 
+
+.opciones__bebidas {
+    color: #eeeeee;
+} 
+
+.section__menu_bebidas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+/* footer menu */
+
+.footer__menu {
+    background-color: #eeeeee;
+    
+}
+
+.wave__image {
+display: block
+}
+.opciones__bebidas{
+    padding-bottom: 10rem;
+}

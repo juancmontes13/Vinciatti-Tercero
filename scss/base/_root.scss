@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+/* TYPOGRAPHY */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior:smooth;
+}
+body {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    background-image:url(../images/wickedbackground.png);
+
+}
+h1, h2, h3, h4, h5 {
+    color: $color-headings;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+h1 {
+    font-size: 6rem;
+    margin: 7rem;
+    color: #eeeeee;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    
+    @media screen and (max-width:810px){
+        
+            text-decoration: none;
+            margin-bottom: 0;
+            font-size: 4rem;
+        
+    }
+}
+h2 {
+    font-size: 4rem;
+    text-decoration:underline ;
+    @media screen and (max-width:810px){
+        text-decoration: none;
+    }
+}
+h3 {
+    font-size: 3rem;
+}
+h4 { 
+    font-size: 2.4rem;
+}
+p {
+    margin-top: 0;
+    color: #25252b;
+}
+.heading1 {
+    text-align: center;
+    padding-top: 7rem;
+}
+a {
+    text-decoration: none;
+}
+
+a{
+    color: #25252b;
+}
+

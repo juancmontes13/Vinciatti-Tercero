@@ -1,0 +1,16 @@
+.grid {
+    display: grid; 
+    justify-content: center; 
+    place-content: center;  
+}
+.grid--1x2 {
+    grid-template-rows: 1fr 0.3fr ;
+}
+.grid__hero--1x2 {
+    grid-template-columns: 1fr 0.7fr;
+}
+@media screen and (max-width: 986px) {
+    .grid__hero--1x2 {
+        grid-template-columns: 1fr;
+    }
+}

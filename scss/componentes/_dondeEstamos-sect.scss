@@ -1,0 +1,58 @@
+.where__img{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../images/vinciatti-calle.png);
+    background-size: cover;
+    background-position: center;
+}
+  
+.dondeEstamos__h2 {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    
+}
+.container__dondeEstamos {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+       
+}
+
+.dondeEstamos__ciudades {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    
+    }
+
+.donde{
+    width: 100%;
+}
+    
+   
+.link__dondeEstamos{
+    padding: 4rem;
+}
+.donde_estamos{
+    margin-bottom: 5rem;
+}
+@media screen and (max-width:768px) {
+    .container__dondeEstamos {
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .dondeEstamos__h2{
+        font-size: 3rem;
+    }
+}  
+@media screen and (max-width:499px) {
+.img__donde{
+    width: 350px;
+}
+}

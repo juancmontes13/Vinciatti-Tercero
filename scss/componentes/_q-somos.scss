@@ -1,0 +1,61 @@
+.quienesSomos{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+
+}
+@media screen and (max-width: 986px) {
+    .quienesSomos{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0% 100%);
+    }
+}
+
+.hero__content{
+    background-color: #b6efda;
+    padding: 6rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+.hero__h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #25252b;
+}
+.hero--image {
+    width: 100%;
+    background-color: #b6efda;
+    height: 100%;
+    
+}
+@media screen and (max-width: 986px) {
+    .hero--image{
+        display: none;
+    }
+    
+}
+
+
+.curva {
+    display: block;
+}
+.hero__text {
+    display: block;
+    line-height: 2;
+    text-align: center;
+    
+}
+@media screen and (max-width:986px){
+    .hero__text {
+        line-height: 1.7;
+        height: 400px;
+    }
+}
+@media screen and (max-width:482px){
+    .hero__text {
+        height: 550px;
+    }
+}
+@media screen and (max-width:380px){
+    .hero__text {
+        line-height: 1.4;
+        height: 630px;
+    }
+}

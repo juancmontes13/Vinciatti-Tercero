@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    img {
+    
+        height: 5rem;
+        margin-left: 2rem;
+        
+    }
+    a:hover {
+        color: #C9C5EA;
+           
+    }
+}
+@media screen and (max-width:800px) {
+    .nav__a {
+        width: 50vw;
+    }
+}
+@media screen and (max-width:800px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100vw;
+    }
+
+}      
+@media screen and (max-width: 565px){
+    .header { 
+        position: static;
+    }
+}
+.margen{
+    margin : 0 2rem 0 2rem;
+}
+.ancla{
+    margin-right: 1.5rem;
+}
+.nav-direction{
+    justify-content: flex-end;
+}
+.hamburguesa{
+    margin-right: 2.5rem;
+}

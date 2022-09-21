@@ -1,0 +1,53 @@
+footer {
+    background-color: white;
+}
+.container__footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0 4rem 1rem 4rem;
+
+       
+}
+.redes__icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.copy {
+    color: #eeeeee;
+    font-size: 1.3rem;
+}
+.copy__menu {
+    color: #25252b;
+}
+.redes-logo{
+    width: 45px;
+    margin: 1.5rem;
+}
+.copy__image{
+    width: 130px;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width:768px){
+    .container__footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    .redes__icons{
+        flex-direction: column;             
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .redes{
+        padding: 1rem;
+    }
+}

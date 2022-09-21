@@ -1,0 +1,116 @@
+.h2__cabecera__donde{
+    color: white;
+}
+.h5-direccion {
+    color: #25252b;
+}
+.btn-direccion {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #25252b;
+    color: #ffffff;
+    font-family:'lora', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    border-radius: 99rem;
+    border: 0 solid;
+
+
+}
+
+.btn-direccion:hover {
+    background-color:#EBF1A9;
+    color: #25252b;
+
+}
+#dondeEstamos__section{
+    padding-bottom: 10rem;
+}
+.h3__tulua{
+    padding: 2rem;
+}
+.p__donde{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: left;
+}
+ 
+.container__donde {
+       display: flex;
+       justify-content: space-evenly;
+     
+       }
+
+.container__tulua {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 8rem 2rem 5rem 2rem;
+  }
+.dondeEstamos__img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tulua{
+    margin-top: 4rem;
+}
+.manizalez{
+    margin-top: 8rem;
+  }
+.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+   }
+.image__tulua {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 960px){
+    .container__donde {
+        flex-direction: column;
+        align-items: center;
+    }
+    .manizalez{
+        flex-direction: column-reverse;
+        padding-top: 5rem;
+    }
+    .iframe{
+         width: 350px;
+        
+    }
+    .imagen__tulua{
+        width: 350px;
+    }
+   }
+
+/* Footer donde estamos */
+
+.footer__dondeEstamos{
+    padding-top: 3.5rem;
+    background-color: white;
+}
+
+.redes__icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.redes-logo {
+    width: 85px;
+    
+    padding: 2rem;
+}
+.redes:hover {
+   transform:  rotate(25deg);
+   transition: 0.5s;
+}
