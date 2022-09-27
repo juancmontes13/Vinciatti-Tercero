@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.finale, .iframe, .dondeEstamos__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +38,7 @@ h1 {
   color: #eeeeee;
   display: block;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 @media screen and (max-width: 810px) {
   h1 {
@@ -43,12 +50,17 @@ h1 {
 
 h2 {
   font-size: 4rem;
-  text-decoration: underline;
+  text-decoration: none;
+  text-align: center;
 }
 @media screen and (max-width: 810px) {
   h2 {
     text-decoration: none;
   }
+}
+
+.h1__menu {
+  margin-top: 5rem;
 }
 
 h3 {
@@ -633,10 +645,10 @@ footer {
   background-position: top;
 }
 
-.img_donde__noparallax {
+.antojos__img {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/vinciatti-city.png);
+  background-image: url(../../images/cinnamon-rolls.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -674,7 +686,6 @@ footer {
 .h2__sabores {
   color: #eeeeee;
   padding: 5rem;
-  font-style: italic;
   text-align: center;
 }
 
@@ -708,21 +719,31 @@ footer {
 .sabores__image {
   width: 100%;
   height: 250px;
+  display: flex;
 }
 
 .container__card {
-  width: 250px;
-  height: 330px;
-  margin: 1rem;
   display: flex;
   justify-content: center;
+  margin: 0.5rem 0.5rem 1.5rem 0.5rem;
 }
 
+@media screen and (max-width: 540px) {
+  .container__card {
+    width: 160px;
+    margin-bottom: 2rem;
+  }
+  .sabores__image {
+    height: 200px;
+  }
+  .card__text p {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+}
 .card__text {
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.7rem;
   background-color: #eeeeee;
-  overflow: hidden;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -730,6 +751,19 @@ footer {
   align-items: center;
   width: 248px;
   text-align: center;
+  height: 100%;
+  margin-top: 0.6rem;
+}
+
+.p__texto__menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.p__texto__menuDos {
+  font-size: 1.3rem;
 }
 
 .tarjetas__sabores {
@@ -844,6 +878,14 @@ footer {
   padding-bottom: 10rem;
 }
 
+.donde__img {
+  width: 100%;
+  height: 400px;
+  background-image: url(../../images/vinciatti-city.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .h2__cabecera__donde {
   color: white;
 }
@@ -898,8 +940,6 @@ footer {
 }
 
 .dondeEstamos__img {
-  display: flex;
-  justify-content: center;
   width: 100%;
 }
 
@@ -912,9 +952,6 @@ footer {
 }
 
 .iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 400px;
 }
 
@@ -941,6 +978,12 @@ footer {
     width: 350px;
   }
 }
+.p_finale {
+  font-size: 3rem;
+  color: white;
+  background-color: orange;
+}
+
 /* Footer donde estamos */
 .footer__dondeEstamos {
   padding-top: 3.5rem;

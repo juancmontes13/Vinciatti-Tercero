@@ -30,7 +30,7 @@ h1 {
     color: #eeeeee;
     display: block;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     
     @media screen and (max-width:810px){
         
@@ -42,10 +42,14 @@ h1 {
 }
 h2 {
     font-size: 4rem;
-    text-decoration:underline ;
+    text-decoration: none;
+    text-align: center;
     @media screen and (max-width:810px){
         text-decoration: none;
     }
+}
+.h1__menu{
+    margin-top: 5rem;
 }
 h3 {
     font-size: 3rem;
