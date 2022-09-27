@@ -157,7 +157,7 @@ nav img {
   .navbar {
     flex-direction: row;
     justify-content: space-evenly;
-  }
+      }
 }
 @media screen and (max-width: 565px) {
   .header {
@@ -183,7 +183,7 @@ nav img {
 .div__no__parallax {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/textura.jpg);
+  background-image: url(../images/textura.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -344,7 +344,7 @@ nav img {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
-  background-image: url(../../images/morocco.png);
+  background-image: url(../images/morocco.png);
   flex-wrap: nowrap;
   align-content: center;
   height: 450px;
@@ -391,7 +391,7 @@ nav img {
 .where__img {
   width: 100%;
   height: 450px;
-  background-image: url(../../images/vinciatti-calle.png);
+  background-image: url(../images/vinciatti-calle.png);
   background-size: cover;
   background-position: center;
 }
@@ -639,7 +639,7 @@ footer {
 .img__menu_noparallax {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/sabores-vinciatti.png);
+  background-image: url(../images/sabores-vinciatti.png);
   background-size: cover;
   background-position: top;
 }
@@ -647,7 +647,7 @@ footer {
 .antojos__img {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/cinnamon-rolls.jpg);
+  background-image: url(../images/cinnamon-rolls.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -782,7 +782,7 @@ footer {
 .img_antojos_noparallax {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/cinnamon-rolls.jpg);
+  background-image: url(../images/cinnamon-rolls.jpg);
   background-size: cover;
   background-position: center;
   border: 1px solid red;
@@ -880,7 +880,7 @@ footer {
 .donde__img {
   width: 100%;
   height: 400px;
-  background-image: url(../../images/vinciatti-city.png);
+  background-image: url(../images/vinciatti-city.png);
   background-size: cover;
   background-position: center;
 }
