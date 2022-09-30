@@ -45,17 +45,18 @@
 @media screen and (max-width:986px){
     .hero__text {
         line-height: 1.7;
-        height: 400px;
+        margin-bottom: 5rem;
     }
 }
 @media screen and (max-width:482px){
     .hero__text {
-        height: 550px;
+        font-size: 1.8rem;
+        margin-bottom: 5rem;
     }
 }
 @media screen and (max-width:380px){
     .hero__text {
         line-height: 1.4;
-        height: 630px;
+        margin-bottom: 5rem;
     }
 }

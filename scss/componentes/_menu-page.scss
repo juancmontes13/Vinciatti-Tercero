@@ -2,7 +2,7 @@
    
     width: 100%;
     height: 500px;
-    background-image: url(../images/amigos2.jpg);
+    background-image: url(../images/amigos2.webp);
     background-size: cover;
     background-position: center;
 }
@@ -39,7 +39,7 @@
 .img__menu_noparallax{
     width: 100%;
     height: 400px;
-    background-image: url(../images/sabores-vinciatti.png);
+    background-image: url(../images/sabores-vinciatti.webp);
     background-size: cover;
     background-position: top;
 }
@@ -191,14 +191,7 @@
 }
 
   /* Section Menu Antojos */ 
-  .img_antojos_noparallax {
-    width: 100%;
-    height: 400px;
-    background-image: url(../images/cinnamon-rolls.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 1px solid red;
-}
+ 
 #section__menu_antojos{
     display: flex;
     justify-content: space-evenly;
@@ -220,6 +213,7 @@
 @media screen and (max-width: 810px) {
     .antojos__text {
         padding: 0;
+        margin: 0 4rem 0 4rem;
     }
 }
 .h2__antojos {

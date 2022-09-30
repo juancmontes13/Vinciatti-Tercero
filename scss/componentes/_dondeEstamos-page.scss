@@ -97,14 +97,7 @@
     }
    }
 
-.finale{
-    @extend %disposicion;
-}
-.p_finale{
-    @include titulofinal;
-    background-color: map-get($elfin, bg-color );
-}
-    
+
 /* Footer donde estamos */
 
 .footer__dondeEstamos{
