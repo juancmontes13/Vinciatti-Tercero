@@ -23,7 +23,7 @@ body {
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 600;
-  background-image: url(../images/wickedbackground.png);
+  background-image: url(../images/wickedbackground.webp);
 }
 
 h1, h2, h3, h4, h5 {
@@ -183,7 +183,7 @@ nav img {
 .div__no__parallax {
   width: 100%;
   height: 400px;
-  background-image: url(../images/textura.jpg);
+  background-image: url(../images/textura.webp);
   background-size: cover;
   background-position: center;
 }
@@ -393,7 +393,7 @@ nav img {
 .where__img {
   width: 100%;
   height: 450px;
-  background-image: url(../images/vinciatti-calle.png);
+  background-image: url(../images/vinciatti-calle.webp);
   background-size: cover;
   background-position: center;
 }
@@ -649,7 +649,7 @@ footer {
 .antojos__img {
   width: 100%;
   height: 400px;
-  background-image: url(../images/cinnamon-rolls.jpg);
+  background-image: url(../images/cinnamon-rolls.webp);
   background-size: cover;
   background-position: center;
 }
@@ -879,7 +879,7 @@ footer {
 .donde__img {
   width: 100%;
   height: 400px;
-  background-image: url(../images/vinciatti-city.png);
+  background-image: url(../images/vinciatti-city.webp);
   background-size: cover;
   background-position: center;
 }
