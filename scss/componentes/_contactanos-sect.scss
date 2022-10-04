@@ -9,10 +9,25 @@
 .container__form {
    
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
     padding-top: 7rem;
     background-color:#EBF1A9 ;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    .form__img{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+
+    }
+    @media screen and (max-width:810px) {
+        .form__img {
+            display: none;
+        }
+    }
 }
 
 .legend {

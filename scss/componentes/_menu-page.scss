@@ -142,7 +142,9 @@
         margin-bottom: 1rem;
         width: 140px;
     }
-   
+    .p__texto__menuDos {
+        display: none;
+    }
     
 }
 
@@ -278,4 +280,24 @@ display: block
 }
 .opciones__bebidas{
     padding-bottom: 10rem;
+}
+.div__arrow {
+    position: relative;
+    .svg-arrow {
+
+        width: 50px;
+        background-color: #eeeeee;
+        border-radius: 100%;
+        padding: 1rem;
+        position: absolute;
+        margin-left: 2rem;
+        bottom: 5rem;
+            
+    }
+    @media screen and (min-width:769px) {
+        .svg-arrow {
+            display: none;
+        }
+    }
+
 }

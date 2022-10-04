@@ -498,10 +498,23 @@ nav img {
 
 .container__form {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   padding-top: 7rem;
   background-color: #EBF1A9;
   font-size: 1.5rem;
+}
+.container__form .form__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 810px) {
+  .container__form .form__img {
+    display: none;
+  }
 }
 
 .legend {
@@ -742,6 +755,9 @@ footer {
     margin-bottom: 1rem;
     width: 140px;
   }
+  .p__texto__menuDos {
+    display: none;
+  }
 }
 .card__text {
   font-size: 1.7rem;
@@ -874,6 +890,24 @@ footer {
 
 .opciones__bebidas {
   padding-bottom: 10rem;
+}
+
+.div__arrow {
+  position: relative;
+}
+.div__arrow .svg-arrow {
+  width: 50px;
+  background-color: #eeeeee;
+  border-radius: 100%;
+  padding: 1rem;
+  position: absolute;
+  margin-left: 2rem;
+  bottom: 5rem;
+}
+@media screen and (min-width: 769px) {
+  .div__arrow .svg-arrow {
+    display: none;
+  }
 }
 
 .donde__img {
