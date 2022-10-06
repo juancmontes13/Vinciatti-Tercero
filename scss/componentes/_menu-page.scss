@@ -126,12 +126,12 @@
        
        display: flex;
        justify-content: center;
-       margin: 0.5rem 0.5rem 1.5rem 0.5rem;
+       margin: 0.5rem 0.5rem 3rem 0.5rem;
        
 }
 @media screen and (max-width:540px) {
     .container__card {
-        width: 160px;
+        width: 170px;
         margin-bottom: 2rem;
     }
     .sabores__image{
@@ -294,10 +294,4 @@ display: block
         bottom: 5rem;
             
     }
-    @media screen and (min-width:769px) {
-        .svg-arrow {
-            display: none;
-        }
-    }
-
 }
