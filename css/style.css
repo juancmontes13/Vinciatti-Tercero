@@ -562,7 +562,7 @@ nav img {
 }
 
 .div-arrow--ind {
-  padding-bottom: 10rem;
+  padding-bottom: 3rem;
 }
 
 footer {
@@ -897,7 +897,7 @@ footer {
 }
 
 .div__arrow {
-  position: relative;
+  position: absolute;
 }
 .div__arrow .svg-arrow {
   width: 50px;
